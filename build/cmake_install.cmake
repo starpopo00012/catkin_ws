@@ -131,6 +131,17 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/por/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/freenect_stack/freenect_launch/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/freenect_stack/freenect_stack/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/tesr_ros_six_servo_arm_moveit_config/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/tesr_ros_six_servo_robot_pkg/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/freenect_stack/freenect_camera/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/rplidar_ros/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/tesr_ros_ironx_driver_pkg/tesr_ros_ironx_driver_pkg/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/my-robotic-manipulator/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/six_servo/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/your_package/cmake_install.cmake")
+  include("/home/por/catkin_ws/build/your_smach/cmake_install.cmake")
 
 endif()
 

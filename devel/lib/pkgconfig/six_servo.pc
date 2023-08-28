@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/devel
+
+Name: six_servo
+Description: Description of six_servo
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

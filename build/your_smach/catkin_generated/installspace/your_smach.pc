@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/install
+
+Name: your_smach
+Description: Description of your_smach
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

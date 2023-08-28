@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/install
+
+Name: tesr_ros_six_servo_arm_moveit_config
+Description: Description of tesr_ros_six_servo_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
