@@ -453,6 +453,12 @@ controller_manager_msgs_DIR:PATH=/opt/ros/noetic/share/controller_manager_msgs/c
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
+//Value Computed by CMake
+crma_arm_BINARY_DIR:STATIC=/home/por/catkin_ws/build/crma_arm
+
+//Value Computed by CMake
+crma_arm_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/crma_arm
+
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/noetic/share/diagnostic_msgs/cmake
 
@@ -562,6 +568,12 @@ joint_state_controller_DIR:PATH=/opt/ros/noetic/share/joint_state_controller/cma
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/noetic/share/kdl_parser/cmake
 
+//Value Computed by CMake
+ku_arm_belt_driver_BINARY_DIR:STATIC=/home/por/catkin_ws/build/ku_belt_arm_driver
+
+//Value Computed by CMake
+ku_arm_belt_driver_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/ku_belt_arm_driver
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -585,6 +597,12 @@ nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/noetic/share/nodelet/cmake
+
+//Value Computed by CMake
+panda_arm_test_BINARY_DIR:STATIC=/home/por/catkin_ws/build/panda_arm_test
+
+//Value Computed by CMake
+panda_arm_test_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/panda_arm_test
 
 //Path to a library.
 pkgcfg_lib_LIBFREENECT_freenect:FILEPATH=/usr/local/lib/libfreenect.so
@@ -660,6 +678,9 @@ smclib_DIR:PATH=/opt/ros/noetic/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
 
 //Value Computed by CMake
 tesr_ros_ironx_driver_pkg_BINARY_DIR:STATIC=/home/por/catkin_ws/build/tesr_ros_ironx_driver_pkg/tesr_ros_ironx_driver_pkg
@@ -862,7 +883,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

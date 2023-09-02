@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/install
+
+Name: crma_arm
+Description: Description of crma_arm
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

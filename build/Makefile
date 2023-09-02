@@ -294,7 +294,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f crma_arm/CMakeFiles/_catkin_empty_exported_target.dir/build.make crma_arm/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
@@ -933,6 +933,240 @@ bond_generate_messages_lisp: cmake_check_build_system
 bond_generate_messages_lisp/fast:
 	$(MAKE) -f freenect_stack/freenect_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make freenect_stack/freenect_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_genpy
+
+# Build rule for target.
+ku_arm_belt_driver_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_genpy
+.PHONY : ku_arm_belt_driver_genpy
+
+# fast build rule for target.
+ku_arm_belt_driver_genpy/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_genpy.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_genpy.dir/build
+.PHONY : ku_arm_belt_driver_genpy/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages_py
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages_py
+.PHONY : ku_arm_belt_driver_generate_messages_py
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages_py/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_py.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_py.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_gennodejs
+
+# Build rule for target.
+ku_arm_belt_driver_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_gennodejs
+.PHONY : ku_arm_belt_driver_gennodejs
+
+# fast build rule for target.
+ku_arm_belt_driver_gennodejs/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_gennodejs.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_gennodejs.dir/build
+.PHONY : ku_arm_belt_driver_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages_nodejs
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages_nodejs
+.PHONY : ku_arm_belt_driver_generate_messages_nodejs
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages_nodejs/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_nodejs.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_nodejs.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_genlisp
+
+# Build rule for target.
+ku_arm_belt_driver_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_genlisp
+.PHONY : ku_arm_belt_driver_genlisp
+
+# fast build rule for target.
+ku_arm_belt_driver_genlisp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_genlisp.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_genlisp.dir/build
+.PHONY : ku_arm_belt_driver_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose
+
+# Build rule for target.
+_ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose
+.PHONY : _ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose
+
+# fast build rule for target.
+_ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/_ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose.dir/build.make ku_belt_arm_driver/CMakeFiles/_ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose.dir/build
+.PHONY : _ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_geneus
+
+# Build rule for target.
+ku_arm_belt_driver_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_geneus
+.PHONY : ku_arm_belt_driver_geneus
+
+# fast build rule for target.
+ku_arm_belt_driver_geneus/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_geneus.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_geneus.dir/build
+.PHONY : ku_arm_belt_driver_geneus/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages_lisp
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages_lisp
+.PHONY : ku_arm_belt_driver_generate_messages_lisp
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages_lisp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_lisp.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_lisp.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_gencpp
+
+# Build rule for target.
+ku_arm_belt_driver_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_gencpp
+.PHONY : ku_arm_belt_driver_gencpp
+
+# fast build rule for target.
+ku_arm_belt_driver_gencpp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_gencpp.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_gencpp.dir/build
+.PHONY : ku_arm_belt_driver_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_nodejs
+
+# Build rule for target.
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages
+.PHONY : ku_arm_belt_driver_generate_messages
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named _ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose
+
+# Build rule for target.
+_ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose
+.PHONY : _ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose
+
+# fast build rule for target.
+_ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/_ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose.dir/build.make ku_belt_arm_driver/CMakeFiles/_ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose.dir/build
+.PHONY : _ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_eus
+
+# Build rule for target.
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages_cpp
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages_cpp
+.PHONY : ku_arm_belt_driver_generate_messages_cpp
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages_cpp/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_cpp.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_cpp.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ku_belt_arm_driver/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named ku_arm_belt_driver_generate_messages_eus
+
+# Build rule for target.
+ku_arm_belt_driver_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ku_arm_belt_driver_generate_messages_eus
+.PHONY : ku_arm_belt_driver_generate_messages_eus
+
+# fast build rule for target.
+ku_arm_belt_driver_generate_messages_eus/fast:
+	$(MAKE) -f ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_eus.dir/build.make ku_belt_arm_driver/CMakeFiles/ku_arm_belt_driver_generate_messages_eus.dir/build
+.PHONY : ku_arm_belt_driver_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named rplidarNodeClient
@@ -1682,6 +1916,24 @@ help:
 	@echo "... bond_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... bond_generate_messages_lisp"
+	@echo "... ku_arm_belt_driver_genpy"
+	@echo "... ku_arm_belt_driver_generate_messages_py"
+	@echo "... ku_arm_belt_driver_gennodejs"
+	@echo "... ku_arm_belt_driver_generate_messages_nodejs"
+	@echo "... ku_arm_belt_driver_genlisp"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... _ku_arm_belt_driver_generate_messages_check_deps_GoToArmPose"
+	@echo "... ku_arm_belt_driver_geneus"
+	@echo "... ku_arm_belt_driver_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... ku_arm_belt_driver_gencpp"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... ku_arm_belt_driver_generate_messages"
+	@echo "... _ku_arm_belt_driver_generate_messages_check_deps_SaveArmPose"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... ku_arm_belt_driver_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... ku_arm_belt_driver_generate_messages_eus"
 	@echo "... rplidarNodeClient"
 	@echo "... rplidarNode"
 	@echo "... nav_msgs_generate_messages_eus"

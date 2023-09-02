@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/devel
+
+Name: ku_arm_belt_driver
+Description: Description of ku_arm_belt_driver
+Version: 0.0.0
+Cflags: -I/home/por/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy sensor_msgs std_msgs std_srvs

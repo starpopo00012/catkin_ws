@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: tesr_ros_six_servo_robot_pkg
+    relative_path: urdf/six_servo.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/six_servo.srdf
+  CONFIG:
+    author_name: por
+    author_email: por@crma.ac.th
+    generated_timestamp: 1693360836
