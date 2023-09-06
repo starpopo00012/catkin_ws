@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/devel
+
+Name: mr_robot_description
+Description: Description of mr_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

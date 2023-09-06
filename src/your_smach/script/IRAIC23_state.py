@@ -4,6 +4,9 @@ import rospy
 import smach
 import time
 import speech_recognition as sr
+import cv2
+import numpy as np
+import easyocr
 
 from std_srvs.srv import *
 from std_msgs.msg import String
@@ -17,7 +20,7 @@ class fuel_type(smach.State):
     def fuel_ask(self):
         with sr.Microphone(device_index=5) as source:
             print("Please say something... ")
-            audio = self.r.listen(source)  # Listen for up to 5 seconds
+            audio = self.r.listen(source, phrase_time_limit=5)
             text = self.r.recognize_google(audio, language='th-TH')
             print("You said:", text)
             return text

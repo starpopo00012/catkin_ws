@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/devel
+
+Name: donkey_car
+Description: Description of donkey_car
+Version: 0.0.0
+Cflags: -I/home/por/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

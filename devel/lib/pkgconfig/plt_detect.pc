@@ -1,0 +1,8 @@
+prefix=/home/por/catkin_ws/devel
+
+Name: plt_detect
+Description: Description of plt_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

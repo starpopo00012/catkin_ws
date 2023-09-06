@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH='/home/por/catkin_ws/devel/lib:/home/por/ros_workshop_ws/devel/lib:/home/por/tutorial_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'
 export PWD='/home/por/catkin_ws/build'

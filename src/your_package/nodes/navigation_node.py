@@ -118,4 +118,3 @@ class NavigationLibrary(object):
 if __name__ == "__main__":
     nav = NavigationLibrary()
     rospy.spin()
-
