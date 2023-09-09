@@ -678,6 +678,12 @@ SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 //Name of the computer/site where compile is being run
 SITE:STRING=por-Yoga-6-13ALC6
 
+//Path to a file.
+TinyXML_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+TinyXML_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml.so
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -711,6 +717,9 @@ actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for angles.
+angles_DIR:PATH=/opt/ros/noetic/share/angles/cmake
+
 //Value Computed by CMake
 aruco_navigation_BINARY_DIR:STATIC=/home/por/catkin_ws/build/aruco_navigation
 
@@ -731,6 +740,9 @@ boost_atomic_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0
 
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0
+
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0
 
 //The directory containing a CMake configuration file for boost_thread.
 boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0
@@ -755,6 +767,9 @@ ce30c_driver_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/ros_tutorials/benewake_ce
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for cmake_modules.
+cmake_modules_DIR:PATH=/opt/ros/noetic/share/cmake_modules/cmake
 
 //The directory containing a CMake configuration file for controller_interface.
 controller_interface_DIR:PATH=/opt/ros/noetic/share/controller_interface/cmake
@@ -928,6 +943,9 @@ hardware_interface_DIR:PATH=/opt/ros/noetic/share/hardware_interface/cmake
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/noetic/share/image_transport/cmake
 
+//The directory containing a CMake configuration file for joint_limits_interface.
+joint_limits_interface_DIR:PATH=/opt/ros/noetic/share/joint_limits_interface/cmake
+
 //The directory containing a CMake configuration file for joint_state_controller.
 joint_state_controller_DIR:PATH=/opt/ros/noetic/share/joint_state_controller/cmake
 
@@ -942,6 +960,138 @@ ku_arm_belt_driver_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 ku_arm_belt_driver_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/ku_belt_arm_driver
+
+//Value Computed by CMake
+kuka_eki_hw_interface_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_eki_hw_interface
+
+//Value Computed by CMake
+kuka_eki_hw_interface_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+kuka_eki_hw_interface_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libcontroller_manager.so;general;/opt/ros/noetic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/noetic/lib/libclass_loader.so;general;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/noetic/lib/libroslib.so;general;/opt/ros/noetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/noetic/lib/librosconsole_bridge.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;Boost::system;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;
+
+//Value Computed by CMake
+kuka_eki_hw_interface_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_eki_hw_interface
+
+//Value Computed by CMake
+kuka_experimental_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_experimental
+
+//Value Computed by CMake
+kuka_experimental_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_experimental_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_experimental
+
+//Dependencies for the target
+kuka_hardware_interface_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libcontroller_manager.so;general;/opt/ros/noetic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/noetic/lib/libclass_loader.so;general;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/noetic/lib/libroslib.so;general;/opt/ros/noetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/noetic/lib/librosconsole_bridge.so;general;/opt/ros/noetic/lib/librealtime_tools.so;general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;Boost::system;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;
+
+//Value Computed by CMake
+kuka_kr10_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr10_support
+
+//Value Computed by CMake
+kuka_kr10_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr10_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr10_support
+
+//Value Computed by CMake
+kuka_kr120_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr120_support
+
+//Value Computed by CMake
+kuka_kr120_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr120_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr120_support
+
+//Value Computed by CMake
+kuka_kr150_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr150_support
+
+//Value Computed by CMake
+kuka_kr150_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr150_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr150_support
+
+//Value Computed by CMake
+kuka_kr16_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr16_support
+
+//Value Computed by CMake
+kuka_kr16_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr16_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr16_support
+
+//Value Computed by CMake
+kuka_kr210_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr210_support
+
+//Value Computed by CMake
+kuka_kr210_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr210_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr210_support
+
+//Value Computed by CMake
+kuka_kr3_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr3_support
+
+//Value Computed by CMake
+kuka_kr3_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr3_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr3_support
+
+//Value Computed by CMake
+kuka_kr5_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr5_support
+
+//Value Computed by CMake
+kuka_kr5_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr5_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr5_support
+
+//Value Computed by CMake
+kuka_kr6_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_kr6_support
+
+//Value Computed by CMake
+kuka_kr6_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_kr6_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_kr6_support
+
+//Value Computed by CMake
+kuka_lbr_iiwa_support_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_lbr_iiwa_support
+
+//Value Computed by CMake
+kuka_lbr_iiwa_support_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_lbr_iiwa_support_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_lbr_iiwa_support
+
+//Value Computed by CMake
+kuka_resources_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_resources
+
+//Value Computed by CMake
+kuka_resources_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_resources_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_resources
+
+//Value Computed by CMake
+kuka_rsi_hw_interface_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_rsi_hw_interface
+
+//Value Computed by CMake
+kuka_rsi_hw_interface_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_rsi_hw_interface_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface
+
+//Value Computed by CMake
+kuka_rsi_simulator_BINARY_DIR:STATIC=/home/por/catkin_ws/build/kuka_experimental/kuka_rsi_simulator
+
+//Value Computed by CMake
+kuka_rsi_simulator_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+kuka_rsi_simulator_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/kuka_experimental/kuka_rsi_simulator
 
 //Value Computed by CMake
 laser_scanner_tfmini_BINARY_DIR:STATIC=/home/por/catkin_ws/build/ros_tutorials/laser_scanner_tfmini
@@ -1401,7 +1551,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=45
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1449,7 +1599,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: EIGEN_INCLUDE_DIR
 EIGEN_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: thread ][v1.71.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: system ][v1.71.0()]
 //Details about finding Eigen
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.1)]
 //Details about finding FLANN
@@ -1518,6 +1668,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10()]
 FIND_PACKAGE_MESSAGE_DETAILS_Qhull:INTERNAL=[optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so][/usr/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding TinyXML
+FIND_PACKAGE_MESSAGE_DETAILS_TinyXML:INTERNAL=[/usr/lib/x86_64-linux-gnu/libtinyxml.so][/usr/include][v()]
 //Details about finding USB_10
 FIND_PACKAGE_MESSAGE_DETAILS_USB_10:INTERNAL=[/usr/lib/x86_64-linux-gnu/libusb-1.0.so][/usr/include][v()]
 //Details about finding libusb-1.0
@@ -1935,6 +2087,10 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3/dist-packages
 //QHull header
 QHULL_HEADER:INTERNAL=/usr/include/libqhull/libqhull.h
+//ADVANCED property for variable: TinyXML_INCLUDE_DIR
+TinyXML_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TinyXML_LIBRARY
+TinyXML_LIBRARY-ADVANCED:INTERNAL=1
 //Last used BOOST_INCLUDEDIR value.
 _BOOST_INCLUDEDIR_LAST:INTERNAL=/usr/include
 //Last used Boost_ADDITIONAL_VERSIONS value.
@@ -1973,6 +2129,8 @@ __pkg_config_checked_PC_USB_10:INTERNAL=1
 boost_atomic_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR
 boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_system_DIR
+boost_system_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_thread_DIR
 boost_thread_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gmock_build_tests
