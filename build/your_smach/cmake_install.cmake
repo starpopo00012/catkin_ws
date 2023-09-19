@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/your_smach/srv" TYPE FILE FILES "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/your_smach/srv" TYPE FILE FILES
+    "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+    "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

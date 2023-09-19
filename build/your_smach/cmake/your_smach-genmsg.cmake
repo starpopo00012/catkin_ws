@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "your_smach: 0 messages, 1 services")
+message(STATUS "your_smach: 0 messages, 2 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_your_smach_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "your_smach" "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" ""
 )
 
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
+add_custom_target(_your_smach_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "your_smach" "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -32,6 +37,12 @@ add_custom_target(_your_smach_generate_messages_check_deps_${_filename}
 ### Generating Services
 _generate_srv_cpp(your_smach
   "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/your_smach
+)
+_generate_srv_cpp(your_smach
+  "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/your_smach
@@ -51,6 +62,8 @@ add_dependencies(your_smach_generate_messages your_smach_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" NAME_WE)
 add_dependencies(your_smach_generate_messages_cpp _your_smach_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
+add_dependencies(your_smach_generate_messages_cpp _your_smach_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(your_smach_gencpp)
@@ -65,6 +78,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS your_smach_generate_messages_cpp)
 ### Generating Services
 _generate_srv_eus(your_smach
   "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/your_smach
+)
+_generate_srv_eus(your_smach
+  "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/your_smach
@@ -84,6 +103,8 @@ add_dependencies(your_smach_generate_messages your_smach_generate_messages_eus)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" NAME_WE)
 add_dependencies(your_smach_generate_messages_eus _your_smach_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
+add_dependencies(your_smach_generate_messages_eus _your_smach_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(your_smach_geneus)
@@ -98,6 +119,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS your_smach_generate_messages_eus)
 ### Generating Services
 _generate_srv_lisp(your_smach
   "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/your_smach
+)
+_generate_srv_lisp(your_smach
+  "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/your_smach
@@ -117,6 +144,8 @@ add_dependencies(your_smach_generate_messages your_smach_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" NAME_WE)
 add_dependencies(your_smach_generate_messages_lisp _your_smach_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
+add_dependencies(your_smach_generate_messages_lisp _your_smach_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(your_smach_genlisp)
@@ -131,6 +160,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS your_smach_generate_messages_lisp)
 ### Generating Services
 _generate_srv_nodejs(your_smach
   "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/your_smach
+)
+_generate_srv_nodejs(your_smach
+  "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/your_smach
@@ -150,6 +185,8 @@ add_dependencies(your_smach_generate_messages your_smach_generate_messages_nodej
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" NAME_WE)
 add_dependencies(your_smach_generate_messages_nodejs _your_smach_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
+add_dependencies(your_smach_generate_messages_nodejs _your_smach_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(your_smach_gennodejs)
@@ -168,6 +205,12 @@ _generate_srv_py(your_smach
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/your_smach
 )
+_generate_srv_py(your_smach
+  "/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/your_smach
+)
 
 ### Generating Module File
 _generate_module_py(your_smach
@@ -182,6 +225,8 @@ add_dependencies(your_smach_generate_messages your_smach_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv" NAME_WE)
+add_dependencies(your_smach_generate_messages_py _your_smach_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/por/catkin_ws/src/your_smach/srv/trigger.srv" NAME_WE)
 add_dependencies(your_smach_generate_messages_py _your_smach_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/por/catkin_ws/devel/share/roseus/ros/your_smach/manifest.l"
   "/home/por/catkin_ws/devel/share/roseus/ros/your_smach/srv/GoToPosition.l"
+  "/home/por/catkin_ws/devel/share/roseus/ros/your_smach/srv/trigger.l"
   "CMakeFiles/your_smach_generate_messages_eus"
 )
 

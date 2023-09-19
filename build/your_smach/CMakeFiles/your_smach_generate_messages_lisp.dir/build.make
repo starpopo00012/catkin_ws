@@ -67,14 +67,21 @@ include your_smach/CMakeFiles/your_smach_generate_messages_lisp.dir/compiler_dep
 include your_smach/CMakeFiles/your_smach_generate_messages_lisp.dir/progress.make
 
 your_smach/CMakeFiles/your_smach_generate_messages_lisp: /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/GoToPosition.lisp
+your_smach/CMakeFiles/your_smach_generate_messages_lisp: /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/trigger.lisp
 
 /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/GoToPosition.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/GoToPosition.lisp: /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from your_smach/GoToPosition.srv"
 	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv
 
+/home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/trigger.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/trigger.lisp: /home/por/catkin_ws/src/your_smach/srv/trigger.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from your_smach/trigger.srv"
+	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/por/catkin_ws/src/your_smach/srv/trigger.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv
+
 your_smach_generate_messages_lisp: your_smach/CMakeFiles/your_smach_generate_messages_lisp
 your_smach_generate_messages_lisp: /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/GoToPosition.lisp
+your_smach_generate_messages_lisp: /home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/trigger.lisp
 your_smach_generate_messages_lisp: your_smach/CMakeFiles/your_smach_generate_messages_lisp.dir/build.make
 .PHONY : your_smach_generate_messages_lisp
 

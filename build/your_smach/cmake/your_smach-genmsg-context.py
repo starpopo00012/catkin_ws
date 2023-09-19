@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv"
+services_str = "/home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv;/home/por/catkin_ws/src/your_smach/srv/trigger.srv"
 pkg_name = "your_smach"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

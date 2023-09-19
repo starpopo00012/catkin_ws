@@ -163,6 +163,13 @@
 /home/por/catkin_ws/build/ros_tutorials/laser_scanner_tfmini/CMakeFiles/install.dir
 /home/por/catkin_ws/build/ros_tutorials/laser_scanner_tfmini/CMakeFiles/install/local.dir
 /home/por/catkin_ws/build/ros_tutorials/laser_scanner_tfmini/CMakeFiles/install/strip.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/test.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/edit_cache.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/rebuild_cache.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/list_install_components.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/install.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/install/local.dir
+/home/por/catkin_ws/build/mic_cam/CMakeFiles/install/strip.dir
 /home/por/catkin_ws/build/MR-Robot/mr_robot_description/CMakeFiles/test.dir
 /home/por/catkin_ws/build/MR-Robot/mr_robot_description/CMakeFiles/edit_cache.dir
 /home/por/catkin_ws/build/MR-Robot/mr_robot_description/CMakeFiles/rebuild_cache.dir
@@ -545,6 +552,7 @@
 /home/por/catkin_ws/build/your_package/CMakeFiles/install/strip.dir
 /home/por/catkin_ws/build/your_smach/CMakeFiles/your_smach_generate_messages.dir
 /home/por/catkin_ws/build/your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_GoToPosition.dir
+/home/por/catkin_ws/build/your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir
 /home/por/catkin_ws/build/your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir
 /home/por/catkin_ws/build/your_smach/CMakeFiles/your_smach_gencpp.dir
 /home/por/catkin_ws/build/your_smach/CMakeFiles/your_smach_generate_messages_eus.dir

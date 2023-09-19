@@ -3279,6 +3279,19 @@ _your_smach_generate_messages_check_deps_GoToPosition/fast:
 .PHONY : _your_smach_generate_messages_check_deps_GoToPosition/fast
 
 #=============================================================================
+# Target rules for targets named _your_smach_generate_messages_check_deps_trigger
+
+# Build rule for target.
+_your_smach_generate_messages_check_deps_trigger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _your_smach_generate_messages_check_deps_trigger
+.PHONY : _your_smach_generate_messages_check_deps_trigger
+
+# fast build rule for target.
+_your_smach_generate_messages_check_deps_trigger/fast:
+	$(MAKE) $(MAKESILENT) -f your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/build.make your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/build
+.PHONY : _your_smach_generate_messages_check_deps_trigger/fast
+
+#=============================================================================
 # Target rules for targets named your_smach_generate_messages_cpp
 
 # Build rule for target.
@@ -3467,6 +3480,7 @@ help:
 	@echo "... _your_package_generate_messages_check_deps_NavToLocation"
 	@echo "... _your_package_generate_messages_check_deps_SaveLocation"
 	@echo "... _your_smach_generate_messages_check_deps_GoToPosition"
+	@echo "... _your_smach_generate_messages_check_deps_trigger"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/GoToPosition.lisp"
+  "/home/por/catkin_ws/devel/share/common-lisp/ros/your_smach/srv/trigger.lisp"
   "CMakeFiles/your_smach_generate_messages_lisp"
 )
 

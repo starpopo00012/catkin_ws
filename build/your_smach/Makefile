@@ -200,6 +200,20 @@ _your_smach_generate_messages_check_deps_GoToPosition/fast:
 .PHONY : _your_smach_generate_messages_check_deps_GoToPosition/fast
 
 # Convenience name for target.
+your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/rule:
+	cd /home/por/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/rule
+.PHONY : your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/rule
+
+# Convenience name for target.
+_your_smach_generate_messages_check_deps_trigger: your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/rule
+.PHONY : _your_smach_generate_messages_check_deps_trigger
+
+# fast build rule for target.
+_your_smach_generate_messages_check_deps_trigger/fast:
+	cd /home/por/catkin_ws/build && $(MAKE) $(MAKESILENT) -f your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/build.make your_smach/CMakeFiles/_your_smach_generate_messages_check_deps_trigger.dir/build
+.PHONY : _your_smach_generate_messages_check_deps_trigger/fast
+
+# Convenience name for target.
 your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/rule:
 	cd /home/por/catkin_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/rule
 .PHONY : your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/rule
@@ -353,6 +367,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... _your_smach_generate_messages_check_deps_GoToPosition"
+	@echo "... _your_smach_generate_messages_check_deps_trigger"
 	@echo "... your_smach_gencpp"
 	@echo "... your_smach_generate_messages"
 	@echo "... your_smach_generate_messages_cpp"

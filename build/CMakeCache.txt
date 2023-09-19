@@ -1115,6 +1115,15 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+mic_cam_BINARY_DIR:STATIC=/home/por/catkin_ws/build/mic_cam
+
+//Value Computed by CMake
+mic_cam_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mic_cam_SOURCE_DIR:STATIC=/home/por/catkin_ws/src/mic_cam
+
+//Value Computed by CMake
 mr_robot_description_BINARY_DIR:STATIC=/home/por/catkin_ws/build/MR-Robot/mr_robot_description
 
 //Value Computed by CMake
@@ -1551,7 +1560,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=45
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=46
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

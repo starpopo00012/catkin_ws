@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_GoToPosition.py"
   "/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py"
+  "/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py"
   "CMakeFiles/your_smach_generate_messages_py"
 )
 

@@ -67,6 +67,7 @@ include your_smach/CMakeFiles/your_smach_generate_messages_py.dir/compiler_depen
 include your_smach/CMakeFiles/your_smach_generate_messages_py.dir/progress.make
 
 your_smach/CMakeFiles/your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_GoToPosition.py
+your_smach/CMakeFiles/your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py
 your_smach/CMakeFiles/your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py
 
 /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_GoToPosition.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
@@ -76,12 +77,19 @@ your_smach/CMakeFiles/your_smach_generate_messages_py: /home/por/catkin_ws/devel
 
 /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_GoToPosition.py
+/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for your_smach"
 	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv --initpy
+
+/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py: /home/por/catkin_ws/src/your_smach/srv/trigger.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV your_smach/trigger"
+	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/por/catkin_ws/src/your_smach/srv/trigger.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv
 
 your_smach_generate_messages_py: your_smach/CMakeFiles/your_smach_generate_messages_py
 your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_GoToPosition.py
 your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/__init__.py
+your_smach_generate_messages_py: /home/por/catkin_ws/devel/lib/python3/dist-packages/your_smach/srv/_trigger.py
 your_smach_generate_messages_py: your_smach/CMakeFiles/your_smach_generate_messages_py.dir/build.make
 .PHONY : your_smach_generate_messages_py
 

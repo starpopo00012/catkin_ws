@@ -18,7 +18,7 @@ class OpenCVROS(object):
     def show_image(self):
         if self.image is None:
             return 0
-        cv2.imshow("image", self.image)
+        cv2.imwrite("image.jpg", self.image)
         if cv2.waitKey(1) == ord('q'):
             exit()
     

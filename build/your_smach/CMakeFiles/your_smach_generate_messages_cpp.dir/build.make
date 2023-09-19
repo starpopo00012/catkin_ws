@@ -67,6 +67,7 @@ include your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/compiler_depe
 include your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/progress.make
 
 your_smach/CMakeFiles/your_smach_generate_messages_cpp: /home/por/catkin_ws/devel/include/your_smach/GoToPosition.h
+your_smach/CMakeFiles/your_smach_generate_messages_cpp: /home/por/catkin_ws/devel/include/your_smach/trigger.h
 
 /home/por/catkin_ws/devel/include/your_smach/GoToPosition.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/por/catkin_ws/devel/include/your_smach/GoToPosition.h: /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv
@@ -75,8 +76,16 @@ your_smach/CMakeFiles/your_smach_generate_messages_cpp: /home/por/catkin_ws/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from your_smach/GoToPosition.srv"
 	cd /home/por/catkin_ws/src/your_smach && /home/por/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/include/your_smach -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/por/catkin_ws/devel/include/your_smach/trigger.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/por/catkin_ws/devel/include/your_smach/trigger.h: /home/por/catkin_ws/src/your_smach/srv/trigger.srv
+/home/por/catkin_ws/devel/include/your_smach/trigger.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/por/catkin_ws/devel/include/your_smach/trigger.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from your_smach/trigger.srv"
+	cd /home/por/catkin_ws/src/your_smach && /home/por/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/por/catkin_ws/src/your_smach/srv/trigger.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/include/your_smach -e /opt/ros/noetic/share/gencpp/cmake/..
+
 your_smach_generate_messages_cpp: your_smach/CMakeFiles/your_smach_generate_messages_cpp
 your_smach_generate_messages_cpp: /home/por/catkin_ws/devel/include/your_smach/GoToPosition.h
+your_smach_generate_messages_cpp: /home/por/catkin_ws/devel/include/your_smach/trigger.h
 your_smach_generate_messages_cpp: your_smach/CMakeFiles/your_smach_generate_messages_cpp.dir/build.make
 .PHONY : your_smach_generate_messages_cpp
 

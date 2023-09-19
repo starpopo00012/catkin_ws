@@ -67,14 +67,21 @@ include your_smach/CMakeFiles/your_smach_generate_messages_nodejs.dir/compiler_d
 include your_smach/CMakeFiles/your_smach_generate_messages_nodejs.dir/progress.make
 
 your_smach/CMakeFiles/your_smach_generate_messages_nodejs: /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/GoToPosition.js
+your_smach/CMakeFiles/your_smach_generate_messages_nodejs: /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/trigger.js
 
 /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/GoToPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/GoToPosition.js: /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from your_smach/GoToPosition.srv"
 	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/por/catkin_ws/src/your_smach/srv/GoToPosition.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv
 
+/home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/trigger.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/trigger.js: /home/por/catkin_ws/src/your_smach/srv/trigger.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/por/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from your_smach/trigger.srv"
+	cd /home/por/catkin_ws/build/your_smach && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/por/catkin_ws/src/your_smach/srv/trigger.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p your_smach -o /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv
+
 your_smach_generate_messages_nodejs: your_smach/CMakeFiles/your_smach_generate_messages_nodejs
 your_smach_generate_messages_nodejs: /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/GoToPosition.js
+your_smach_generate_messages_nodejs: /home/por/catkin_ws/devel/share/gennodejs/ros/your_smach/srv/trigger.js
 your_smach_generate_messages_nodejs: your_smach/CMakeFiles/your_smach_generate_messages_nodejs.dir/build.make
 .PHONY : your_smach_generate_messages_nodejs
 

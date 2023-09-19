@@ -6,7 +6,7 @@ import serial
 import time
 
 #robot_comport = rospy.get_param('~robot_comport') # get parameter from launch agrument
-comport = serial.Serial("/dev/ttyUSB0",115200,timeout=1)
+comport = serial.Serial("/dev/ttyUSB1",115200,timeout=1)
 comport.close()
 comport.open()
 # Initialize the node
@@ -57,9 +57,9 @@ def get_joint(robot_pose):
     # elif j6_deg < 100:
     #     j6_deg = "0"+ str(j6_deg)
     print(cur_pos)
-    pos_deg = "S" + "," + str(j1_deg) + "," + str(j2_deg) + "," + str(j3_deg) + "," + str(j4_deg) + "," + str(j5_deg) + "," + "000" + "," + '\r'
+    pos_deg = str(j4_deg)
     print(pos_deg)
-    comport.write(bytes(str(pos_deg),'utf-8'))
+    comport.write(str(pos_deg).encode())
     #data = comport.readline()
     #return data
     
